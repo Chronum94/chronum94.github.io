@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Chronum
+title:            Anubhab Haldar
 tagline:          'Personal Website and Findings Dump'
-description:      'I work on computational science things'
+description:      'I work on computational science things. PhD student at Boston University Department of ECE'
 url:              https://chronum94.github.io
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
