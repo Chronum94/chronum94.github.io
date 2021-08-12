@@ -65,7 +65,7 @@ class RelativeForces(Criterion):
         self.old_F_av = None
 ```
 
-The `Criterion` above checks if the forces over the past two SCF iterations have changed by more `tol` times the current forces `F_av` (the name `F_av` stands for 'an array called F, the first index of which is a, atoms, and the second of which is v, vectors'). It's not a name that complies with conventional best practices, but it GPAW uses names following this convention since they are quite useful when developing.
+The `Criterion` above checks if the forces over the past two SCF iterations have changed by more `tol` times the current forces `F_av` (the name `F_av` stands for 'an array called F, the first index of which is a, atoms, and the second of which is v, vectors'). It's not a name that complies with conventional best practices, but GPAW uses names following this convention since they are quite useful when developing.
 
 Right, now let's set up the rest of the calculator, optimizer, etc:
 
