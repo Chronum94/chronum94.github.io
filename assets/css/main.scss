@@ -3,4 +3,12 @@
 # only main files contain this front matter, not partials.
 ---
 
+$body-color: $gray-1 !default;
+$body-muted: $gray-4 !default;
+$body-bg: $gray-6 !default;
+$link-color: $blue !default;
+$heading-color: $gray-6 !default;
+
+$sidebar-bg-color: #202020
+$sidebar-fg-color: gray-6 !default;
 @import "hydeout";
