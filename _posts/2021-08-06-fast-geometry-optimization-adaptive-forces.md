@@ -4,7 +4,7 @@ layout: post
 title: Atomistic Geometry Optimization With Adaptively Converged Forces
 date: 2021-08-06
 category:
-  - Posts
+  - Blog
 tags:
   - Python
   - DFT
