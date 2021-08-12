@@ -2,41 +2,10 @@
 layout: default
 ---
 
-<div class="content">
-  {% include pagination-newer.html %}
+<div>
+  <p>Oh hi. I'm Anubhab Haldar, fourth-year ECE PhD student in the <a href = "http://sites.bu.edu/sharifzadeh/sahar-sharifzadeh/"> Sharifzadeh Group</a> at Boston University. My broad interests (personal, professional, otherwise) include but are not limited to: condensed matter, electromagnetism and optics, numerical methods, high performance computing, camping, 4X games, and simple cooking.</p>
 
-  {{ content }}
-
-  {% for post in paginator.posts %}
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-    {% include post-meta.html post=post %}
-
-    {% if post.excerpt %}
-      {{ post.excerpt }}
-    {% else %}
-      {{ post.content }}
-    {% endif %}
-
-    {% if post.excerpt %}
-      {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
-      {% capture content_words %}
-        {{ post.content | number_of_words }}
-      {% endcapture %}
-      {% capture excerpt_words %}
-        {{ post.excerpt | number_of_words }}
-      {% endcapture %}
-
-      {% if content_words != excerpt_words %}
-        <a href="{{ post.url | relative_url }}">More &hellip;</a>
-      {% endif %}
-    {% endif %}
-  </article>
-  {% endfor %}
-
-  {% include pagination-older.html %}
+  <p> All code posted on this site should be considered under an MIT License unless otherwise stated </p>
+  
+  <meta name="description" content="Anubhab Haldar's Personal Site.">
 </div>
