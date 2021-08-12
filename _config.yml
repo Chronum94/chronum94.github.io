@@ -1,5 +1,6 @@
 # Dependencies
 markdown:         kramdown
+use_mathjax:      true
 highlighter:      rouge
 
 # Setup
