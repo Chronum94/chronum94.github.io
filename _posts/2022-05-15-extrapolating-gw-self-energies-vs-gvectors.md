@@ -190,8 +190,11 @@ plt.xlabel('Omitted GW calculations')
 plt.tight_layout()
 plt.show()
 ```
+EDIT 1 (15-May-2022): The work referenced by [JK2014](#references) which is listed as unpublished in their bibliography (at least in the version of the paper I have access to) has been included in the references [AG2014](#references) since there are a few nice plots there for extrapolation including higher-order terms (figures 1, 2, 3). It also has a full exposition of the physics that leads to the asymptotic expansion, although this is much more involved than just a quick fun blog post on extrapolation effects.
 
 # References:
 [MDB2019](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.125128)
 
 [JK2014](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.90.075125)
+
+[AG2014](https://aip.scitation.org/doi/full/10.1063/1.4900447)
