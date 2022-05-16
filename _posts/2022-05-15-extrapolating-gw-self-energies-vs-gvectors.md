@@ -89,7 +89,7 @@ which gives us exactly, or something similar to:
 ## Higher-order extrapolation
 Coming back to the question of can we do better, we now define a custom fit function that will take into account higher-order asymptotic behaviour:
 ```python
-def gap_asmpytotic(recip_ng, a, b, c):
+def gap_asymptotic(recip_ng, a, b, c):
     return a * recip_ng + b * recip_ng ** (5/3) + c
 ```
 where we've taken into account the first higher-order term.
@@ -99,7 +99,7 @@ We can then proceed as above, replacing the polyfit with our custom fit function
 from scipy.optimize import curve_fit
 hofit_coeffs = [] # ho for higher-order
 for i in range(4):
-    coeff, cov = curve_fit(gap_asmpytotic, data[i:, 0], data[i:, 1])
+    coeff, cov = curve_fit(gap_asymptotic, data[i:, 0], data[i:, 1])
     hofit_coeffs.append(coeff[-1])
     print(coeff)
 ```
@@ -167,13 +167,13 @@ for i in range(2):
     linearfit_lineardata_coeffs.append(coeff[-1])
     print(coeff)
 
-def gap_asmpytotic(recip_ng, a, b, c):
+def gap_asymptotic(recip_ng, a, b, c):
     return a * recip_ng + b * recip_ng ** (5/3) + c
 
 from scipy.optimize import curve_fit
 hofit_coeffs = [] # ho for higher-order
 for i in range(4):
-    coeff, cov = curve_fit(gap_asmpytotic, data[i:, 0], data[i:, 1])
+    coeff, cov = curve_fit(gap_asymptotic, data[i:, 0], data[i:, 1])
     hofit_coeffs.append(coeff[-1])
     print(coeff)
 
