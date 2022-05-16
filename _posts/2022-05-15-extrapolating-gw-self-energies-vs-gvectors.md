@@ -1,6 +1,6 @@
 ---
 layout: post
-# mathjax: true
+mathjax: true
 title: Extrapolating GW Self-Energies vs Planewaves
 date: 2022-05-15
 category:
