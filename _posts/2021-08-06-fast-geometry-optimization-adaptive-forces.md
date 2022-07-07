@@ -27,7 +27,7 @@ import numpy as np
 
 from ase.units import Ha, Bohr
 
-from gpaw.scf import Criterion
+from gpaw.convergence_criteria import Criterion
 from gpaw.forces import calculate_forces
 
 
@@ -73,7 +73,7 @@ Right, now let's set up the rest of the calculator, optimizer, etc:
 import numpy as np
 
 from gpaw import GPAW
-from gpaw.scf import Criterion
+from gpaw.convergence_criteria import Criterion
 from gpaw.forces import calculate_forces
 
 
