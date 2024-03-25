@@ -4,26 +4,21 @@ title: About Me
 sidebar_link: true
 ---
 
-I'm a PhD student working on computational materials science at Boston University. Since computational materials is a huge field, it typically helps I also tell you that I work on nanoscale optical and other 'energetically nearby' linear response properties.
+I am a research engineer working on computational and surrogate methods in atomistic materials simulation. Since computational materials is a huge field, I will also dabble in nearby technical areas.
 
-My work uses density functional theory, the GW (it's not an acronym) approximation, and the Bethe-Salpeter equation. Depending on the physics that needs to be modeled, I also work with phonons and how they interact with electrons.
+My work uses density functional theory and general atomistic surrogate modeling methods to try and find out whatever we may want to find out about atomistic-scale systems with a focus on using smaller resource amounts than is assumed to be necessary.
 
 # Education
 
-## PhD, Electrical and Computer Engineering (2017 - Now)
+## PhD, Electrical and Computer Engineering (2017 - 2023)
 Boston University
 
 ## BS, Physics (2014 - 2017)
 UMass Amherst
 
-# Teaching Experience
-* EK 307 - Electric Circuits, Fall 2019
-* EK 307 - Electric Circuits, Spring 2019
-* EC 455 - Electromagnetic Systems I, Summer 2018
 
 # Skills (approximately from most general to most specific)
 * Python/Cython - Numerical kernels, scientific computing
-* Modern C++ - Roughly as above
 * Gradient-based optimization - Unconstrained smooth optimization
 * Physics modeling - Moderately complex physical systems short of multiphysics
 * Electronic structure theory - GPAW, Vasp, Abinit, Quantum Espresso codes
