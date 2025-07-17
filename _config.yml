@@ -6,7 +6,7 @@ highlighter:      rouge
 # Setup
 title:            Anubhab Haldar
 tagline:          'Personal Website and Findings Dump'
-description:      'I work on computational science things. PhD student at Boston University Department of ECE'
+description:      'I work on computational science things.'
 url:              https://chronum94.github.io
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
