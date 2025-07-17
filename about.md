@@ -17,8 +17,20 @@ Boston University
 UMass Amherst
 
 
-# Skills (approximately from most general to most specific)
+## Skills (approximately from most general to most specific)
 * Python/Cython - Numerical kernels, scientific computing
 * Gradient-based optimization - Unconstrained smooth optimization
 * Physics modeling - Moderately complex physical systems short of multiphysics
 * Electronic structure theory - GPAW, Vasp, Abinit, Quantum Espresso codes
+
+### Courses during PhD
+* Engineering Optics
+* Electromagnetism Fundamentals
+* Physics of Semiconductor Materials
+* Optical Fiber Waveguides
+* Nano Optics
+* Quantum Optics
+* Introduction to Solid State Physics
+* Solid State Physics 2
+* Computational Methods for Many-Body Physics
+* Nonlinear and Ultrafast Optics
