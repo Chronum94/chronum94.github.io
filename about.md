@@ -18,7 +18,7 @@ UMass Amherst
 
 
 # Skills (approximately from most general to most specific)
-* Python/Cython - Numerical kernels, scientific computing
+* Machine learning, numerical methods (root-finding, optimization, linear algebra, Monte Carlo methods), software development
 * Gradient-based optimization - Unconstrained smooth optimization
 * Physics modeling - Moderately complex physical systems short of multiphysics
 * Electronic structure theory - GPAW, Vasp, Abinit, Quantum Espresso codes
